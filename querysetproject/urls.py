@@ -20,4 +20,6 @@ from queryset_app import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('show_data/',views.home),
+    path('about/',views.about),
+    path('about_stu/',views.about_student),
 ]
