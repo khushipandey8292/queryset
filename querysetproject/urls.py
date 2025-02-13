@@ -22,4 +22,5 @@ urlpatterns = [
     path('show_data/',views.home),
     path('about/',views.about),
     path('about_stu/',views.about_student),
+    path('about_s/',views.about_st)
 ]
